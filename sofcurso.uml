@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2pLC0Li2EeiBT--A9l4X9A" name="sofcurso">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_ra7W0Li4EeiBT--A9l4X9A" annotatedElement="_2pLC0Li2EeiBT--A9l4X9A">
+    <body>dasdas</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_sFZQILi4EeiBT--A9l4X9A">
+    <body>dsadasd</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_2z5FELi2EeiBT--A9l4X9A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4dxM8Li2EeiBT--A9l4X9A" name="Alumno">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8GopsLi5EeiBT--A9l4X9A" name="idAlumno" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8yRnsLi5EeiBT--A9l4X9A" name="idUsuario" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_T7ov8Li6EeiBT--A9l4X9A" name="numeroControl" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5_dsYLi6EeiBT--A9l4X9A" name="nombre" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6MIPYLi6EeiBT--A9l4X9A" name="apellidoPaterno" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6emfcLi6EeiBT--A9l4X9A" name="ApellidoMaterno" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_62I1sLi6EeiBT--A9l4X9A" name="Property13" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lhW7YLi4EeiBT--A9l4X9A" name="prueba"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0c-wsLi5EeiBT--A9l4X9A" name="toString" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7JN_MLi5EeiBT--A9l4X9A" name="getters" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TXPpcLi6EeiBT--A9l4X9A" name="setters"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_-1bLMLi5EeiBT--A9l4X9A" name="Class7"/>
+    <ownedReception xmi:type="uml:Reception" xmi:id="_ofYywLi4EeiBT--A9l4X9A" name="test"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6H_6ILi2EeiBT--A9l4X9A" name="Curso">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IChiALi8EeiBT--A9l4X9A" name="idCurso" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JUKJALi8EeiBT--A9l4X9A" name="nombreCurso" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JtMUELi8EeiBT--A9l4X9A" name="nivel" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KzDv8Li8EeiBT--A9l4X9A" name="descripcion" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MamVgLi8EeiBT--A9l4X9A" name="periodo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FVkMgLi8EeiBT--A9l4X9A" name="getters"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LXtVILi8EeiBT--A9l4X9A" name="setters"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6iuHQLi2EeiBT--A9l4X9A" name="Maestro">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_phTJcLi9EeiBT--A9l4X9A" name="idMaestro" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qrVToLi9EeiBT--A9l4X9A" name="idUsuario" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rM2sULi9EeiBT--A9l4X9A" name="nombre" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rvQ10Li9EeiBT--A9l4X9A" name="apellidoPaterno" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sWJ2sLi9EeiBT--A9l4X9A" name="apellidoMaterno" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oNuBsLi9EeiBT--A9l4X9A" name="getters"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pCKWYLi9EeiBT--A9l4X9A" name="setters"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7Dq4MLi2EeiBT--A9l4X9A" name="Usuario">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RmXPwLi8EeiBT--A9l4X9A" name="idUsuario" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SDaYILi8EeiBT--A9l4X9A" name="correoElectronico" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ScJBMLi8EeiBT--A9l4X9A" name="password" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TZOUgLi8EeiBT--A9l4X9A" name="Property4"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y-D2ELi8EeiBT--A9l4X9A" name="getters"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Z7vmULi8EeiBT--A9l4X9A" name="setters"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aS_BoLi8EeiBT--A9l4X9A" name="toString"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tfyGULi_EeiBT--A9l4X9A" name="Cardex">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__AiAQLi_EeiBT--A9l4X9A" name="idCardex" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_EFmcoLjAEeiBT--A9l4X9A" value=""/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AJiPsLjAEeiBT--A9l4X9A" name="idAlumno" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BjqrYLjAEeiBT--A9l4X9A" name="idCurso" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jJiOwLjAEeiBT--A9l4X9A" name="Avance" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jUHHELjAEeiBT--A9l4X9A" name="promedio" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9iFFQLi_EeiBT--A9l4X9A" name="obtenerAvance"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-fAnkLi_EeiBT--A9l4X9A" name="obtenerPromedio"/>
+  </packagedElement>
+</uml:Model>
